@@ -1,0 +1,194 @@
+{
+ "pages": [
+  {
+   "elements": [
+    {
+     "type": "html",
+     "html": "BUSINESS PARTNER PROFILE",
+     "name": " "
+    },
+    {
+     "type": "text",
+     "name": "Company name:"
+    },
+    {
+     "type": "text",
+     "name": "Legal Status:"
+    },
+    {
+     "type": "text",
+     "inputType": "date",
+     "name": "Founding Date:"
+    },
+    {
+     "type": "multipletext",
+     "items": [
+      {
+       "name": "Street number"
+      },
+      {
+       "name": "ZIP Code"
+      },
+      {
+       "name": "City"
+      },
+      {
+       "name": "Province"
+      },
+      {
+       "name": "Country"
+      },
+      {
+       "name": "GPS coordinates "
+      }
+     ],
+     "name": "Address:"
+    },
+    {
+     "type": "text",
+     "name": "Company website (if applicable):"
+    },
+    {
+     "type": "matrix",
+     "columns": [
+      "Yes",
+      "No"
+     ],
+     "name": "Does it have production units?"
+    },
+    {
+     "type": "text",
+     "name": "Local currency:"
+    },
+    {
+     "type": "text",
+     "name": "Exchange rate to Euros: "
+    },
+    {
+     "type": "text",
+     "inputType": "date",
+     "name": "Exchange rate date: "
+    },
+    {
+     "type": "html",
+     "html": "CONTACT PERSON DATA\n",
+     "name": "CONTACT PERSON DATA"
+    },
+    {
+     "type": "multipletext",
+     "items": [
+      {
+       "name": "Job title"
+      },
+      {
+       "name": "First Name"
+      },
+      {
+       "name": "Email"
+      }
+     ],
+     "name": "Contact Person:"
+    },
+    {
+     "type": "multipletext",
+     "itemSize": 50,
+     "items": [
+      {
+       "name": "Official language for written communication"
+      }
+     ],
+     "name": "Primary language : "
+    },
+    {
+     "type": "multipletext",
+     "itemSize": 68,
+     "items": [
+      {
+       "name": "Other relevant language for communication (if applicable)"
+      }
+     ],
+     "name": "Secondary Language:"
+    },
+    {
+     "type": "panel",
+     "elements": [
+      {
+       "type": "multipletext",
+       "items": [
+        {
+         "name": "Production volume"
+        }
+       ],
+       "name": " "
+      },
+      {
+       "type": "matrix",
+       "columns": [
+        "Yes",
+        "No"
+       ],
+       "name": " ",
+       "rows": [
+        "Production cost calculation  ",
+        "Lost time injury calculation cost (part of the accident records)"
+       ]
+      }
+     ],
+     "name": " ",
+     "title": "PRODUCTION DATA"
+    },
+    {
+     "type": "panel",
+     "elements": [
+      {
+       "type": "multipletext",
+       "itemSize": 1,
+       "items": [
+        {
+         "name": "January"
+        },
+        {
+         "name": "February"
+        },
+        {
+         "name": "March"
+        },
+        {
+         "name": "April"
+        },
+        {
+         "name": "May"
+        },
+        {
+         "name": "June"
+        },
+        {
+         "name": "July"
+        },
+        {
+         "name": "August"
+        },
+        {
+         "name": "September"
+        },
+        {
+         "name": "October"
+        },
+        {
+         "name": "November"
+        },
+        {
+         "name": "December"
+        }
+       ],
+       "name": "In the table below,  indicate the level of production activity for each month (low, medium, high). "
+      }
+     ],
+     "name": "PRODUCTION CALENDAR",
+     "title": "PRODUCTION CALENDAR"
+    }
+   ],
+   "name": "BUSINESS PARTNER PROFILE"
+  }
+ ]
+}

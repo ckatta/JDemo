@@ -1,0 +1,255 @@
+{
+ pages: [
+  {
+   elements: [
+    {
+     type: "html",
+     html: "CERTIFICATION  OVERVIEW",
+     name: " "
+    },
+    {
+     type: "panel",
+     elements: [
+      {
+       type: "multipletext",
+       items: [
+        {
+         name: "Name of the scheme:"
+        }
+       ],
+       name: " "
+      },
+      {
+       type: "multipletext",
+       colCount: 3,
+       itemSize: 10,
+       items: [
+        {
+         name: "Day"
+        },
+        {
+         name: "Month"
+        },
+        {
+         name: "Year"
+        }
+       ],
+       name: "Certificate or audit validity date : "
+      },
+      {
+       type: "multipletext",
+       items: [
+        {
+         name: "Link to online version: "
+        }
+       ],
+       name: " "
+      }
+     ]
+    },
+    {
+     type: "panel",
+     elements: [
+      {
+       type: "multipletext",
+       items: [
+        {
+         name: "Name of the scheme:"
+        }
+       ],
+       name: " "
+      },
+      {
+       type: "multipletext",
+       colCount: 3,
+       itemSize: 10,
+       items: [
+        {
+         name: "Day"
+        },
+        {
+         name: "Month"
+        },
+        {
+         name: "Year"
+        }
+       ],
+       name: "Certificate or audit validity date : "
+      },
+      {
+       type: "multipletext",
+       items: [
+        {
+         name: "Link to online version: "
+        }
+       ],
+       name: "question3"
+      }
+     ]
+    },
+    {
+     type: "panel",
+     elements: [
+      {
+       type: "multipletext",
+       items: [
+        {
+         name: "Name of the scheme:"
+        }
+       ],
+       name: " "
+      },
+      {
+       type: "multipletext",
+       colCount: 3,
+       itemSize: 10,
+       items: [
+        {
+         name: "Day"
+        },
+        {
+         name: "Month"
+        },
+        {
+         name: "Year"
+        }
+       ],
+       name: "Certificate or audit validity date : "
+      },
+      {
+       type: "multipletext",
+       items: [
+        {
+         name: "Link to online version: "
+        }
+       ],
+       name: "question3"
+      }
+     ]
+    },
+    {
+     type: "panel",
+     elements: [
+      {
+       type: "multipletext",
+       items: [
+        {
+         name: "Name of the scheme:"
+        }
+       ],
+       name: " "
+      },
+      {
+       type: "multipletext",
+       colCount: 3,
+       itemSize: 10,
+       items: [
+        {
+         name: "Day"
+        },
+        {
+         name: "Month"
+        },
+        {
+         name: "Year"
+        }
+       ],
+       name: "Certificate or audit validity date : "
+      },
+      {
+       type: "multipletext",
+       items: [
+        {
+         name: "Link to online version: "
+        }
+       ],
+       name: "question3"
+      }
+     ]
+    },
+    {
+     type: "panel",
+     elements: [
+      {
+       type: "multipletext",
+       items: [
+        {
+         name: "Name of the scheme:"
+        }
+       ],
+       name: " "
+      },
+      {
+       type: "multipletext",
+       colCount: 3,
+       itemSize: 10,
+       items: [
+        {
+         name: "Day"
+        },
+        {
+         name: "Month"
+        },
+        {
+         name: "Year"
+        }
+       ],
+       name: "Certificate or audit validity date : "
+      },
+      {
+       type: "multipletext",
+       items: [
+        {
+         name: "Link to online version: "
+        }
+       ],
+       name: "question3"
+      }
+     ]
+    },
+    {
+     type: "panel",
+     elements: [
+      {
+       type: "multipletext",
+       items: [
+        {
+         name: "Name of the scheme:"
+        }
+       ],
+       name: " "
+      },
+      {
+       type: "multipletext",
+       colCount: 3,
+       itemSize: 10,
+       items: [
+        {
+         name: "Day"
+        },
+        {
+         name: "Month"
+        },
+        {
+         name: "Year"
+        }
+       ],
+       name: "Certificate or audit validity date : "
+      },
+      {
+       type: "multipletext",
+       items: [
+        {
+         name: "Link to online version: "
+        }
+       ],
+       name: " "
+      }
+     ],
+     name: " "
+    }
+   ],
+   name: "CERTIFICATION  OVERVIEW"
+  }
+ ]
+}

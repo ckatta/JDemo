@@ -1,0 +1,120 @@
+{
+ pages: [
+  {
+   elements: [
+    {
+     type: "html",
+     html: "WORKING ENVIRONMENT",
+     name: " "
+    },
+    {
+     type: "multipletext",
+     itemSize: 58,
+     items: [
+      {
+       name: "Workers organisation or Trade Union : "
+      }
+     ],
+     name: " "
+    },
+    {
+     type: "multipletext",
+     items: [
+      {
+       name: "Title (Mr./Mrs./Ms.)"
+      },
+      {
+       name: "First Name  "
+      },
+      {
+       name: "Last Name  "
+      },
+      {
+       name: "Position  "
+      },
+      {
+       name: "Year of Election"
+      }
+     ],
+     name: "Workers organisation contact person, or workers representative : "
+    },
+    {
+     type: "multipletext",
+     itemSize: 42,
+     items: [
+      {
+       name: "Relevant trade union (if any) : "
+      }
+     ],
+     name: " "
+    },
+    {
+     type: "multipletext",
+     itemSize: 70,
+     items: [
+      {
+       name: "Valid collective bargaining agreement (if any) :"
+      }
+     ],
+     name: " "
+    },
+    {
+     type: "multipletext",
+     itemSize: 40,
+     items: [
+      {
+       name: "Legal regular working hours : ",
+       placeHolder: "Hours / Week"
+      }
+     ],
+     name: " "
+    },
+    {
+     type: "multipletext",
+     itemSize: 52,
+     items: [
+      {
+       name: "Legal regulation for overtime (if any) : "
+      }
+     ],
+     name: " "
+    },
+    {
+     type: "multipletext",
+     itemSize: 88,
+     items: [
+      {
+       name: "Specific overtime premium rate for standard day off (if any) : "
+      }
+     ],
+     name: " "
+    },
+    {
+     type: "multipletext",
+     itemSize: 45,
+     items: [
+      {
+       name: "Legal regulation of shifts (if any) : "
+      }
+     ],
+     name: " "
+    },
+    {
+     type: "checkbox",
+     choices: [
+      "Monday",
+      "Tuesday",
+      "Wednesday",
+      "Thursday",
+      "Friday",
+      "Saturday",
+      "Sunday"
+     ],
+     colCount: 2,
+     name: "Standard day off in the country : (Select relevant days)"
+    }
+   ],
+   name: "WORKING ENVIRONMENT"
+  }
+ ]
+}
