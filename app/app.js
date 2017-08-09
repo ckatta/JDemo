@@ -55,12 +55,44 @@ config(['$locationProvider', '$routeProvider', function($locationProvider, $rout
     var chartData={
         "type":"bar",  // Specify your chart type here.
         "series":[  // Insert your series data here.
-            { "values": [35, 42, 67, 89]},
-            { "values": [28, 40, 39, 36]}
+            { "values": [10, 8, 11, 9, 12, 16]},
+            { "values": [2, 4, 6, 4, 4, 6]},
+            { "values": [8, 4, 5, 5, 8, 10]},
+            { "values": [25, 28, 34, 19, 26, 41]}
         ]
     };
     zingchart.render({ // Render Method[3]
         id:'chartDiv',
+        data:chartData,
+        height:400,
+        width:600
+    });
+
+    var chartData2={
+        "type":"bar",  // Specify your chart type here.
+        "series":[  // Insert your series data here.
+            { "values": [1284, 329, 214, 80, 15, 1]},
+            { "values": [500, 200, 200, 80, 10, 1]},
+            { "values": [250, 179, 185, 73, 4, 1]}
+        ]
+    };
+    zingchart.render({ // Render Method[3]
+        id:'chartDiv2',
+        data:chartData2,
+        height:400,
+        width:600
+    });
+
+    var chartData3={
+        "type":"bar",  // Specify your chart type here.
+        "series":[  // Insert your series data here.
+            { "values": [10, 8, 11, 9, 12, 16]},
+            { "values": [2, 4, 6, 4, 4, 6]},
+            { "values": [8, 4, 5, 5, 8, 10]}
+        ]
+    };
+    zingchart.render({ // Render Method[3]
+        id:'chartDiv3',
         data:chartData,
         height:400,
         width:600
