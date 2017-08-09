@@ -1,115 +1,151 @@
 <html>
 <head>
-<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+    <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
 </head>
 <style>
-table {
-    border-collapse: separate;
-    border-spacing: 0 1em;
-}
-    input, textarea{
-       border:1px solid #0000FF;
+    table {
+        border-collapse: separate;
+        border-spacing: 0 1em;
     }
-    
+
+    input, textarea {
+        border: 1px solid #0000FF;
+    }
+
 </style>
 <body>
 <div>
-<h1>SUPPLYCHAIN MAPPING</h1>
-<div style="padding-left:25px">
-<div><label>This template supports the auditee to identify the potential allies for its continuous improvement. The auditee shall pay particular attention to identify the institutions <br>or NGOs that could provide it with support to reintegrate children into society.<br>
-The auditee may use one sheet per stakeholder. </label></div>
-<table>
-<tr>
-<td>Business partner name :  :</td><td style="width:42px"></td><td colspan="2"><input type="text" size="70"/></td>
-</tr>
-<br>
-<tr>
-<td>RelIdentification code assigned by the auditee (if any):  </td><td style="width:42px"></td><td colspan="2"><input type="text" size="70"/></td>
-</tr>
-<tr>
-<td>Contact Person:</td><td style="width:42px"></td><td colspan="2">FirstName<input type="text" size="60"/><br>
-																				             <div style="padding-left: 2px">LastName<input type="text" size="60"/></div>
-																				             <div style="padding-left: 30px">Email<input type="email" size="60"/></div></td>
-</tr>
-<tr>
-<td>Full Address:</td><td style="width:42px"></td>
-<td colspan="2"><div>StreetNumber<input type="text" size="57"/></div>
-<div style="padding-left: 32px">ZIPCode<input type="text" size="57"/></div>
-<div style="padding-left: 62px">City<input type="text" size="57"/></div>
-<div style="padding-left: 44px">Region<input type="text" size="57"/></div>
-<div style="padding-left: 33px">Province<input type="text" size="57"/></div>
-<div style="padding-left: 38px">Country<input type="text" size="57"/></div></td>
-</tr>
-<tr>
-<td>Type of business partner:<br>(e.g. subcontractor, farm) </td>
-<td style="width:42px"></td>
-<td><input type="text" size="70"/><br><input type="text" size="70"/></td>
-</tr>
-<tr>
-<td>Business relation since : </td><td style="width:42px" ></td><td><span style="padding-right: 20px; padding-left: 45px">Year</span><input type="text" size="5"/></td>
-</tr>
-<tr>
-<td>Number of workers :</td><td style="width:42px" ></td><td><span style="padding-right: 95px"></span><input type="text" size="5"/></td>
-</tr>
-<tr>
-<td>Distance to auditee's head office (Km):</td><td style="width:42px" ></td><td><span style="padding-right: 18px; padding-left:6px">Kilometers</span><input type="text" size="5"/> </td>
-</tr>
-<tr>
-<td>Significance of this business partner for the auditee?</td><td style="width:42px" ></td>
-<td>
-<span style="padding-right: 75px; padding-left:6px">Low</span><input type="radio"  name="significance"/>
-<span style="padding-right: 40px; padding-left:50px">Medium</span><input type="radio"  name="significance"/>
-<span style="padding-right: 40px; padding-left:50px">High</span><input type="radio"  name="significance"/>
-</td>
-</tr>
-<tr>
-<td><b>For farms only</b> - size in hectares:</td><td style="width:42px" ></td><td><span style="padding-right: 33px; padding-left:6px">Hectares</span><input type="text" size="5"/> </td>
-</tr>
-<tr>
-<td>Is it part of the internal social management system?</td><td style="width:42px" ></td>
-<td>
-<span style="padding-right: 82px; padding-left:6px">Yes</span><input type="radio"  name="socialmngmnt"/>
-<span style="padding-right: 65px; padding-left:57px">No</span><input type="radio"  name="socialmngmnt"/>
-</td>
-</tr>
-<tr>
-<td>Is it internally audited?</td><td style="width:42px" ></td>
-<td>
-<span style="padding-right: 82px; padding-left:6px">Yes</span><input type="radio"  name="audit"/>
-<span style="padding-right: 65px; padding-left:57px">No</span><input type="radio"  name="audit"/>
-</td>
-</tr>
-<tr>
-<td>Does it have a social certificate?</td><td style="width:42px" ></td>
-<td>
-<span style="padding-right: 82px; padding-left:6px">Yes</span><input type="radio"  name="certificate"/>
-<span style="padding-right: 65px; padding-left:57px">No</span><input type="radio"  name="certificate"/>
-</td>
-</tr>
-<tr>
-<td>Validity of social certificate (if any) : </td><td style="width:42px" ></td>
-<td><span style="padding-right: 60px; padding-left:6px">Day</span><input type="text" size="5"/>
-<span style="padding-right: 33px; padding-left:20px">Month</span><input type="text" size="5"/>
-<span style="padding-right: 33px; padding-left:20px">Year</span><input type="text" size="5"/>
-</td>
-</tr>
-<tr>
-<td>Has it signed the BSCI Code and relevant Terms of Implementation? </td><td style="width:42px" ></td>
-<td>
-<span style="padding-right: 82px; padding-left:6px">Yes</span><input type="radio"  name="BSCI"/>
-<span style="padding-right: 65px; padding-left:57px">No</span><input type="radio"  name="BSCI"/>
-</td>
-</tr>
-<tr>
-<td><b>Mandatory for farms</b></td>
-</tr>
-<tr>
-<td>Additional comments about stakeholder (if any):</td>
-<td style="width:42px"></td>
-<td><textarea rows="4" cols="70"></textarea></td>
-</tr>
-</table>
-</div>
+    <h1>SUPPLYCHAIN MAPPING</h1>
+    <div style="padding-left:25px">
+        <div><label>This template supports the auditee to identify the potential allies for its continuous improvement.
+            The auditee shall pay particular attention to identify the institutions <br>or NGOs that could provide it
+            with support to reintegrate children into society.<br>
+            The auditee may use one sheet per stakeholder. </label></div>
+        <table>
+            <tr>
+                <td>Business partner name : :</td>
+                <td style="width:42px"></td>
+                <td colspan="2"><input type="text" size="70"/></td>
+            </tr>
+            <br>
+            <tr>
+                <td>RelIdentification code assigned by the auditee (if any):</td>
+                <td style="width:42px"></td>
+                <td colspan="2"><input type="text" size="70"/></td>
+            </tr>
+            <tr>
+                <td>Contact Person:</td>
+                <td style="width:42px"></td>
+                <td colspan="2">FirstName<input type="text" size="60"/><br>
+                    <div style="padding-left: 2px">LastName<input type="text" size="60"/></div>
+                    <div style="padding-left: 30px">Email<input type="email" size="60"/></div>
+                </td>
+            </tr>
+            <tr>
+                <td>Full Address:</td>
+                <td style="width:42px"></td>
+                <td colspan="2">
+                    <div>StreetNumber<input type="text" size="57"/></div>
+                    <div style="padding-left: 32px">ZIPCode<input type="text" size="57"/></div>
+                    <div style="padding-left: 62px">City<input type="text" size="57"/></div>
+                    <div style="padding-left: 44px">Region<input type="text" size="57"/></div>
+                    <div style="padding-left: 33px">Province<input type="text" size="57"/></div>
+                    <div style="padding-left: 38px">Country<input type="text" size="57"/></div>
+                </td>
+            </tr>
+            <tr>
+                <td>Type of business partner:<br>(e.g. subcontractor, farm)</td>
+                <td style="width:42px"></td>
+                <td><input type="text" size="70"/><br><input type="text" size="70"/></td>
+            </tr>
+            <tr>
+                <td>Business relation since :</td>
+                <td style="width:42px"></td>
+                <td><span style="padding-right: 20px; padding-left: 45px">Year</span><input type="text" size="5"/></td>
+            </tr>
+            <tr>
+                <td>Number of workers :</td>
+                <td style="width:42px"></td>
+                <td><span style="padding-right: 95px"></span><input type="text" size="5"/></td>
+            </tr>
+            <tr>
+                <td>Distance to auditee's head office (Km):</td>
+                <td style="width:42px"></td>
+                <td><span style="padding-right: 18px; padding-left:6px">Kilometers</span><input type="text" size="5"/>
+                </td>
+            </tr>
+            <tr>
+                <td>Significance of this business partner for the auditee?</td>
+                <td style="width:42px"></td>
+                <td>
+                    <span style="padding-right: 75px; padding-left:6px">Low</span><input type="radio"
+                                                                                         name="significance"/>
+                    <span style="padding-right: 40px; padding-left:50px">Medium</span><input type="radio"
+                                                                                             name="significance"/>
+                    <span style="padding-right: 40px; padding-left:50px">High</span><input type="radio"
+                                                                                           name="significance"/>
+                </td>
+            </tr>
+            <tr>
+                <td><b>For farms only</b> - size in hectares:</td>
+                <td style="width:42px"></td>
+                <td><span style="padding-right: 33px; padding-left:6px">Hectares</span><input type="text" size="5"/>
+                </td>
+            </tr>
+            <tr>
+                <td>Is it part of the internal social management system?</td>
+                <td style="width:42px"></td>
+                <td>
+                    <span style="padding-right: 82px; padding-left:6px">Yes</span><input type="radio"
+                                                                                         name="socialmngmnt"/>
+                    <span style="padding-right: 65px; padding-left:57px">No</span><input type="radio"
+                                                                                         name="socialmngmnt"/>
+                </td>
+            </tr>
+            <tr>
+                <td>Is it internally audited?</td>
+                <td style="width:42px"></td>
+                <td>
+                    <span style="padding-right: 82px; padding-left:6px">Yes</span><input type="radio" name="audit"/>
+                    <span style="padding-right: 65px; padding-left:57px">No</span><input type="radio" name="audit"/>
+                </td>
+            </tr>
+            <tr>
+                <td>Does it have a social certificate?</td>
+                <td style="width:42px"></td>
+                <td>
+                    <span style="padding-right: 82px; padding-left:6px">Yes</span><input type="radio"
+                                                                                         name="certificate"/>
+                    <span style="padding-right: 65px; padding-left:57px">No</span><input type="radio"
+                                                                                         name="certificate"/>
+                </td>
+            </tr>
+            <tr>
+                <td>Validity of social certificate (if any) :</td>
+                <td style="width:42px"></td>
+                <td><span style="padding-right: 60px; padding-left:6px">Day</span><input type="text" size="5"/>
+                    <span style="padding-right: 33px; padding-left:20px">Month</span><input type="text" size="5"/>
+                    <span style="padding-right: 33px; padding-left:20px">Year</span><input type="text" size="5"/>
+                </td>
+            </tr>
+            <tr>
+                <td>Has it signed the BSCI Code and relevant Terms of Implementation?</td>
+                <td style="width:42px"></td>
+                <td>
+                    <span style="padding-right: 82px; padding-left:6px">Yes</span><input type="radio" name="BSCI"/>
+                    <span style="padding-right: 65px; padding-left:57px">No</span><input type="radio" name="BSCI"/>
+                </td>
+            </tr>
+            <tr>
+                <td><b>Mandatory for farms</b></td>
+            </tr>
+            <tr>
+                <td>Additional comments about stakeholder (if any):</td>
+                <td style="width:42px"></td>
+                <td><textarea rows="4" cols="70"></textarea></td>
+            </tr>
+        </table>
+    </div>
 </div>
 </body>
 </html>
